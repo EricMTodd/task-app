@@ -6,7 +6,6 @@ class Overview extends Component {
   }
   
   render() {
-
     const { tasks } = this.props;
     const listItems = tasks.map((task, index) => 
       <li key={index}>{task}</li>
